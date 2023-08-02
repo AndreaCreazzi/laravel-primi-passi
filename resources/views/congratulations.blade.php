@@ -8,8 +8,8 @@
 </head>
 
 <body>
-    <h1>Benvenuto su Laravel {{$name}}</h1>
-     <a href="{{route('congratulations')}}">Complimenti</a>
+    <h1>Congratulazioni adesso hai imparato come usare url/route</h1>
+    <a href="{{route('home')}}">Torna alla pagina iniziale</a>
 </body>
 
 </html>
